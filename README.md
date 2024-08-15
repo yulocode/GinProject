@@ -1,1 +1,1 @@
-# RestFUL API GIN
+# RESTful web service
