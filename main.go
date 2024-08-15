@@ -24,5 +24,8 @@ func getAlbums(c *gin.Context) {
 }
 
 func main() {
+	router := gin.Default()
+	router.GET("/albums", getAlbums)
 
+	router.Run("localhost:8000")
 }
